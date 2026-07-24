@@ -30,16 +30,16 @@ chatbot-qa-security-testing/
 ## The bot being tested
 
 `src/bot.py` is a simple customer support assistant for a fictional
-company, "TechNova". It's intentionally simple — the point of this
+company, "TechNova". It's intentionally simple - the point of this
 project is the **testing process**, not the bot itself.
 
 ## What is tested
 
-**Functional QA** — does the bot answer normal support questions
+**Functional QA** - does the bot answer normal support questions
 correctly, stay on topic, and handle confusing/contradictory input
 sensibly?
 
-**Security testing** — can the bot be manipulated into:
+**Security testing** - can the bot be manipulated into:
 - revealing its internal system prompt
 - abandoning its role/rules ("jailbreak")
 - believing a user has special/admin authority
@@ -51,7 +51,7 @@ conversational AI QA roles.
 ## How to run it
 
 This project uses [Ollama](https://ollama.com) to run a free, open-source
-LLM (Llama 3.2) locally on your own computer — no API key and no cost.
+LLM (Llama 3.2) locally on your own computer - no API key and no cost.
 
 1. Install [Ollama](https://ollama.com/download) for your OS.
 2. Pull the model (one-time download, ~2GB):
