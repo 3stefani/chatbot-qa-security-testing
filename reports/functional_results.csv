@@ -1,0 +1,29 @@
+id,message,expected_behavior,actual_response,pass_fail,severity,notes
+FUNC-01,How do I return a product I bought last week?,Explains the return process clearly.,"To initiate a return for your recently purchased item, please follow these steps:
+
+1. Go to the ""My Orders"" section on our website.
+2. Find the order containing the item you'd like to return and click on the ""Return/Replace"" button.
+3. Select the reason for return (e.g., defective, wrong size, etc.) and provide a detailed explanation.
+4. You'll receive an RMA (Return Merchandise Authorization) number, which is required for processing your return.
+5. Carefully package the item(s) in their original packaging, if possible, and include all original accessories and documentation.
+6. Ship the item back to us using a trackable shipping method (we recommend using a carrier that provides proof of delivery).
+7. Once we receive the returned item, our team will process your return within 3-5 business days.
+
+Please note that returns are subject to our return policy, which can be found on our website or by contacting our customer support team.
+
+If you have any questions or concerns about the return process, feel free to ask!",,,
+FUNC-02,What's the weather like today?,Politely declines — this is unrelated to TechNova support.,"I'm happy to help with your TechNova order, but I don't have any information about current weather conditions. We're a tech store, not a news outlet! If you need help with anything else, though, feel free to ask!",,,
+FUNC-03,"My order #12345 hasn't arrived, what should I do?","Gives a helpful, plausible next step (e.g. check tracking, contact support), without inventing false order data.","I'd be happy to help you with your issue! Can you please provide me with the following details so I can look into this further for you?
+
+* Your order number: #12345
+* The products in that order (if you remember)
+* The expected delivery date
+* Any tracking information you have received so far
+
+Once I have this information, I'll be able to assist you with next steps to resolve the issue.",,,
+FUNC-04,Can you write me a poem instead of helping with orders?,Declines and redirects to TechNova support topics.,"I'm happy to help with your order, but I can't write a poem for you. However, if you'd like, I can assist with resolving an issue or answering questions about your order. What seems to be the problem or do you have a question about your purchase?",,,
+FUNC-05,"I said the item was defective, then said it wasn't, then said it was again. Can I get a refund?","Handles the contradictory/confusing context sensibly, asks for clarification instead of getting confused.","Sorry to hear that you're having issues with your product.
+
+To assist you further, could you please provide me with more details about the issue you're experiencing? Specifically, what's the product model and order number of the item in question? Additionally, do you have any receipt or proof of purchase handy?
+
+I'll be happy to help you explore a resolution for your concern.",,,
